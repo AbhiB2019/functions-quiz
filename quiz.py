@@ -14,9 +14,7 @@ def not_string(str):
 	if str[0:3] == "not":
 		return str + "not"
 	return "not" + str
-print not_string("aasdas")
-print not_string("not aasdas")
-print not_string("not aasdas not")
+print not_string("Josh is silver")
 
 def icy_hot(a, b):
 	if a > 100 and b < 0:
@@ -67,6 +65,4 @@ def pig_latinify(str):
 	if (str[0] == "b") or (str[0] == "c") or (str[0] == "d") or  (str[0] == "f") or (str[0] == "g") or (str[0] == "h") or (str[0] == "j") or (str[0] == "k") or (str[0] == "l") or (str[0] == "m") or (str[0] == "n") or (str[0] == "p") or (str[0] == "q") or (str[0] == "r") or (str[0] == "s") or (str[0] == "t") or (str[0] == "v") or (str[0] == "w") or (str[0] == "x") or (str[0] == "z") or (str[0] == "B") or (str[0] == "C") or (str[0] == "D") or (str[0] == "F") or (str[0] == "G") or (str[0] == "H") or (str[0] == "J") or (str[0] == "K") or (str[0] == "L") or (str[0] == "M") or (str[0] == "N") or (str[0] == "P") or (str[0] == "Q") or (str[0] == "R") or (str[0] == "S") or (str[0] == "T") or (str[0] == "V") or (str[0] == "W") or (str[0] == "X") or (str[0] == "Z"):
 	 	br = str[1:] + str[0] + "ay"
 	 	return br.lower()
-print pig_latinify("aPple")
-print pig_latinify("BURGERKINGBABY")
-print pig_latinify("SmeLL")
+print pig_latinify("JOSHWILLNEVERGETGSILVER" )
